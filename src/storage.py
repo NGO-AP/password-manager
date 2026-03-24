@@ -2,7 +2,7 @@
 import json
 from pathlib import Path
 
-STORAGE_FILE = Path("data/passwords.json")2
+STORAGE_FILE = Path("data/passwords.json")
 
 def load_passwords():
     """Load passwords from storage."""
